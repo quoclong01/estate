@@ -1,0 +1,71 @@
+.testi {
+  margin-bottom: 210px;
+  .heading {
+    max-width: 570px;
+    margin-bottom: 50px;
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+  }
+  &-card {
+    padding: 50px 70px 50px 40px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    max-width: 380px;
+  }
+  &-rate {
+    margin-bottom: 30px;
+    i {
+      color: #fbb040;
+    }
+  }
+  &-desc {
+    max-width: 270px;
+    line-height: 1.75;
+    font-weight: 400;
+    color: $black-light;
+    margin-bottom: 50px;
+  }
+  &-info {
+    display: flex;
+  }
+  &-image {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+  }
+  &-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: $black-light;
+  }
+  &-addr {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+  }
+  &-client {
+    display: flex;
+  }
+  &-customer {
+    display: flex;
+    max-width: 672px;
+    justify-content: space-between;
+    flex: 1;
+    margin-right: 108px;
+    align-items: center;
+  }
+  &-contact {
+    max-width: 310px;
+    font-family: $font-thirty;
+    line-height: 1.5;
+    color: $black-light;
+  }
+  &-checkout {
+    color: #2cbde7;
+    font-family: $font-thirty;
+    text-decoration: underline;
+  }
+}

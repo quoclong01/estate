@@ -1,0 +1,87 @@
+.works {
+  margin-top: 220px;
+  margin-bottom: 100px;
+  &-content {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  &-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 260px;
+  }
+  &-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  &-title {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  &-desc {
+    text-align: center;
+    font-family: $font-text;
+    color: $black-light;
+    line-height: 1.625;
+  }
+}
+
+.group {
+  position: absolute;
+  display: flex;
+  width: 210px;
+  align-items: center;
+  top: 42px;
+}
+
+.circle {
+  width: 11px;
+  height: 11px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.line {
+  height: 4px;
+  background-image: linear-gradient(
+      90deg,
+      transparent,
+      transparent 50%,
+      #fff 50%,
+      #fff 100%
+    ),
+    linear-gradient(90deg, #9672ff 2.61%, #4ddffd 102.61%);
+  background-size: 20px 3px, 100% 3px;
+  border: none;
+  flex: 1;
+  opacity: 0.2;
+}
+
+.c-1 {
+    background-color: #9672ff;
+}
+
+.c-2 {
+    background-color: #4ddffd;
+}
+
+.g-1 {
+    left: 21%;
+}
+
+.g-2 {
+    right: 21%;
+}

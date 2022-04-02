@@ -1,0 +1,102 @@
+.footer {
+  background-color: $bg-footer;
+  padding-top: 162px;
+  padding-bottom: 36px;
+  &-main {
+    width: 880px;
+    margin: 0 auto;
+    text-align: center;
+    color: $txt-footer;
+  }
+  &-heading {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 11px;
+  }
+  &-title {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 35px;
+  }
+  &-form {
+    max-width: 686px;
+    padding: 26px 30px 26px 45px;
+    background-color: $white;
+    margin: 0 auto;
+    margin-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 163px 80px rgba(0, 0, 0, 0.04),
+      0px 105.648px 46.8519px rgba(0, 0, 0, 0.0303704),
+      0px 62.7852px 25.4815px rgba(0, 0, 0, 0.0242963),
+      0px 32.6px 13px rgba(0, 0, 0, 0.02),
+      0px 13.2815px 6.51852px rgba(0, 0, 0, 0.0157037),
+      0px 3.01852px 3.14815px rgba(0, 0, 0, 0.00962963);
+  }
+  &-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  &-note {
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.2;
+    margin-bottom: 11px;
+    text-align: left;
+  }
+  &-input {
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 20px;
+    color: $txt-footer;
+  }
+  &-btn {
+    padding: 23px 40px;
+    background-color: $bg-btn;
+    font-size: 18px;
+    font-weight: 500;
+    color: $white;
+    font-family: $font-secondary;
+    box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07),
+      0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481),
+      0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185),
+      0px 20px 13px rgba(248, 90, 71, 0.035),
+      0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815),
+      0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &-line {
+    border: 1px solid #dedfe1;
+    margin-bottom: 60px;
+  }
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+  &-logo {
+    font-size: 23px;
+    font-weight: 800;
+    color: $txt-footer;
+  }
+  &-menu {
+    display: flex;
+    gap: 0 46px;
+  }
+  &-link {
+    color: $txt-footer;
+    font-size: 13px;
+    font-family: $font-secondary;
+    &:hover {
+      border-bottom: 2px solid $txt-footer;
+    }
+  }
+  &-copyright {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: $font-secondary;
+  }
+}

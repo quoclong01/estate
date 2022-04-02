@@ -1,0 +1,165 @@
+.header {
+  position: relative;
+  .nav {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    &-logo {
+      font-size: 23px;
+      font-weight: 800;
+      color: #31353b;
+    }
+    &-menu {
+      display: flex;
+      gap: 0 46px;
+      font-family: $font-secondary;
+    }
+    &-link {
+      color: #000;
+      font-size: 13px;
+      &:hover {
+        border-bottom: 2px solid #000;
+      }
+    }
+  }
+  .bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 510px;
+    height: 840px;
+    background-color: #bdccff;
+    z-index: -1;
+  }
+  &-image {
+    width: 603px;
+    height: 573px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.03))
+      drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778))
+      drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222))
+      drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.015))
+      drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778))
+      drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222));
+    z-index: -1;
+  }
+  &-social {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 36px;
+    gap: 15px 0;
+    transform: translateY(-50%);
+    a {
+      color: $black;
+      font-size: 22px;
+    }
+  }
+}
+
+.hero {
+  margin-top: 120px;
+  position: relative;
+  &-heading-small {
+    font-size: 22px;
+    font-family: $font-secondary;
+    font-weight: 700;
+    color: #ff9900;
+    margin-bottom: 24px;
+  }
+  &-heading {
+    max-width: 485px;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 1.4;
+    margin-bottom: 23px;
+  }
+  &-desc {
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 48px;
+  }
+  &-form {
+    max-width: 755px;
+    display: flex;
+    height: 86px;
+  }
+  .form-icon {
+    width: 21px;
+    height: 21px;
+    margin-left: 33px;
+  }
+  &-input {
+    max-width: 670px;
+    background-color: $white;
+    border: 1px solid #dadada;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
+      0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778),
+      0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222),
+      0px 20px 13px rgba(0, 0, 0, 0.015),
+      0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778),
+      0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+  }
+  input {
+    padding: 0 20px;
+    font-size: 20px;
+    flex: 1;
+    &::placeholder {
+      color: #31353b;
+      font-weight: 400;
+      font-family: $font-primary;
+    }
+  }
+  &-btn {
+    font-weight: 700;
+    color: $white;
+    background: $bg-btn;
+    width: 188px;
+    font-size: 17px;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  &-banner {
+    margin-top: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left {
+      flex: 1;
+    }
+    &-right {
+      display: flex;
+      gap: 0 20px;
+    }
+  }
+  &-title {
+    font-weight: 400;
+    font-size: 17px;
+    color: #31353b;
+    margin-bottom: 27px;
+  }
+  &-logos {
+    max-width: 770px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-icon {
+    background-color: transparent;
+    i {
+      font-size: 30px;
+      color: $white;
+    }
+  }
+  #prev {
+    opacity: 0.5;
+  }
+}

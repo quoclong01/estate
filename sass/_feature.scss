@@ -1,0 +1,68 @@
+.feature {
+  padding: 125px 0;
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    &-desc {
+      margin-top: 15px;
+      max-width: 470px;
+      font-weight: 400;
+    }
+    &-right {
+      width: 200px;
+      height: 65px;
+      background: $bg-btn;
+      box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07),
+        0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481),
+        0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185),
+        0px 20px 13px rgba(248, 90, 71, 0.035),
+        0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815),
+        0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+      color: $white;
+      font-size: 17px;
+      font-family: $font-primary;
+      border-radius: 5px;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  &-menu {
+    margin-bottom: 45px;
+    &-btn {
+        font-size: 19px;
+        color: black;
+        font-family: $font-primary;
+        background-color: transparent;
+        padding-bottom: 12px;
+        margin-right: 50px;
+    }
+    &-active {
+        color: $bg-btn;
+        font-weight: 600;
+        border-bottom: 2px solid $bg-btn;
+    }
+  }
+  &-content {
+    display: flex;
+    gap: 0 30px;
+  }
+  &-card {
+    position: relative;
+  }
+  &-genres {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+  }
+  &-genre {
+    padding: 6px 12px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border: 1px solid $white;
+    color: $white;
+    font-size: 12px;
+    font-family: $font-thirty;
+  }
+}
